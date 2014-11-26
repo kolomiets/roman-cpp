@@ -12,7 +12,7 @@ int main(int argc, const char * argv[]) {
     static_assert(1324 == roman::to_int("MCCCXXIV"), "compile time computation");
 
     // runtime version
-    std::string s = "VI";
-    std::cout << "Hello, World!\n" << roman::to_int(s);
+    std::string s = "XLII";
+    std::cout << "Answer to The Ultimate Question of Life, the Universe, and Everything: " << roman::to_int(s);
     return 0;
 }
